@@ -14,9 +14,9 @@ print(f"Server is listening on {SERVER_HOST}:{SERVER_PORT}...")
 
 while True:
     # Receive a message from the client
-    message, client_address = server_socket.recvfrom(1024)  # Buffer size is 1024 bytes
-    print(f"Received message from client {client_address}: {message.decode()}")
+    MESSAGE, client_address = server_socket.recvfrom(1024)  # Buffer size is 1024 bytes
+    print(f"Received message from client {client_address}: {MESSAGE.decode()}")
 
     # Echo the message back to the client
-    server_socket.sendto(message, client_address)
+    server_socket.sendto(MESSAGE, client_address)
     print(f"Echoed message back to client {client_address}")

@@ -12,11 +12,11 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 client_socket.bind(("127.0.0.1", CLIENT_PORT))
 
 # Message to send
-message = "HELLO"
+MESSAGE = "HELLO"
 
 # Send the message to the server
-client_socket.sendto(message.encode(), (SERVER_HOST, SERVER_PORT))
-print(f"Sent message to server: {message}")
+client_socket.sendto(MESSAGE.encode(), (SERVER_HOST, SERVER_PORT))
+print(f"Sent message to server: {MESSAGE}")
 
 # Receive the echoed message from the server
 response, server_address = client_socket.recvfrom(1024)  # Buffer size is 1024 bytes
