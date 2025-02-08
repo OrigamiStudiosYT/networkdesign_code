@@ -7,7 +7,7 @@
 ## **Environment**
 
 - **Proudly built on**: macOS Sequoia 15.2
-- **Built lovely with**: Python 3.10.5
+- **Built lovely with**: Python 3.10.5❤️
 
 ---
 
