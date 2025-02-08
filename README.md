@@ -1,7 +1,28 @@
-Title and Authors
-  Built for phase 1
-  By: Andrew L.
-Environment
-  Built proudly on macOS Sequoia 15.2
-  Built lovingly with phyton 3.10.5
-Instructions
+# **Built for Phase 1**
+
+**By: Andrew L.**
+
+---
+
+## **Environment**
+
+- **Operating System**: macOS Sequoia 15.2
+- **Programming Language**: Python 3.10.5
+
+---
+
+## **Instructions**
+
+1. Ensure Python 3.10.5 is installed.
+2. Run the server script first:
+   ```bash
+   python udp_server.py
+   ```
+3. Run the client script after starting the server:
+   ```bash
+   python udp_client.py
+   ```
+4. Watch as "HELLO" is transferred from the client to the server and echoed back.
+
+---
+
