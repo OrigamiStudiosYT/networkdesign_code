@@ -2,7 +2,7 @@ import socket
 
 # Define server details
 SERVER_HOST = "127.0.0.1"  # Localhost
-SERVER_PORT = 20825  # Port number for the server
+SERVER_PORT = 20825  # Port for server
 
 # Create a UDP socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

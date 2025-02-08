@@ -1,9 +1,9 @@
 import socket
 
 # Define client details
-SERVER_HOST = "127.0.0.1"  # Address of the server
-SERVER_PORT = 20825  # Port number of the server
-CLIENT_PORT = 54321  # Port number for the client
+SERVER_HOST = "127.0.0.1"  # Address server
+SERVER_PORT = 20825  # Port for server
+CLIENT_PORT = 54321  # Port for client
 
 # Create a UDP socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -11,7 +11,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # Bind the client socket to its address and port
 client_socket.bind(("127.0.0.1", CLIENT_PORT))
 
-# Define the message to send
+# Message to send
 message = "HELLO"
 
 # Send the message to the server
