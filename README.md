@@ -6,8 +6,8 @@
 
 ## **Environment**
 
-- **Operating System**: macOS Sequoia 15.2
-- **Programming Language**: Python 3.10.5
+- **Proudly built on**: macOS Sequoia 15.2
+- **Built lovely with**: Python 3.10.5
 
 ---
 
